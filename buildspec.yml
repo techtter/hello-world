@@ -9,5 +9,5 @@ phases:
       - echo Build completed successfully..
 artifacts:
   files:
-    - target/hello-workd.jar
+    - target/hello-world.jar
   discard-paths: yes
