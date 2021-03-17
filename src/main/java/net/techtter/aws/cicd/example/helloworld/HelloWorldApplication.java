@@ -13,8 +13,15 @@ public class HelloWorldApplication {
 
     @GetMapping("/world")
     public String getHelloWorld() {
-        return " <h1> Hello World.. !! <h/1>";
+        return " <h1> Hello World.. !! </h1>";
     }
+
+    @GetMapping("/techtter")
+    public String getHelloTechtter() {
+        return " <h1> Hello Techtter.. !! </h1>";
+    }
+
+
 
     public static void main(String[] args) {
         SpringApplication.run(HelloWorldApplication.class, args);
